@@ -1,0 +1,43 @@
+body {
+  background-color: #99e;
+  background: linear-gradient(to top, #66b, #aaf);
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  color: white;
+}
+
+.mid-content {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-header {
+  border-bottom: 2px solid black;
+}
+
+.page-footer {
+  border-top: 2px solid black;
+}
+
+.section-header {
+  text-align: center;
+}
+.shop-item {
+  background-color: #aaf;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.shop-item img {
+  width: 160px;
+}
+
+.shop-item p {
+  font-size: 11pt;
+}
