@@ -16,11 +16,12 @@ a {
 }
 
 .page-header {
-  border-bottom: 2px solid black;
+  border-bottom: 1px solid black;
 }
 
 .page-footer {
-  border-top: 2px solid black;
+  border-top: 1px solid black;
+  font-size: 10pt;
 }
 
 .section-header {
