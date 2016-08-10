@@ -9,8 +9,24 @@ a {
   color: white;
 }
 
+input {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+}
+.catalogue-table {
+    width: 100%;
+}
+
+.catalogue-table td:hover {
+    box-shadow: 0 0 20px rgba(1,1,1,0.5);
+}
+
 .mid-content {
-  width: 600px;
+  width: 750px;
+  min-height: 700px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -20,6 +36,7 @@ a {
 }
 
 .page-footer {
+    clear: both;
   border-top: 1px solid black;
   font-size: 10pt;
 }
@@ -30,11 +47,11 @@ a {
 .shop-item {
   background-color: #aaf;
   padding: 5px;
-  margin: 5px;
+  margin: auto;
   text-align: center;
-  border-radius: 20px;
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
+
 .shop-item img {
   width: 160px;
 }
@@ -42,3 +59,74 @@ a {
 .shop-item p {
   font-size: 11pt;
 }
+
+.infoblock {
+  background-color: #aaf;
+  width: 350px;
+  padding: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  vertical-align:text-top;
+  height: 500px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.column1 {
+    float:left;
+}
+.column2 {
+    float: right;
+}
+
+.column3 {
+    clear: both;
+}
+
+.left-aligned {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+}
+
+.phone {
+    text-align:center;
+}
+
+.phone-icon {
+    background-image:url("images/cellphone.png");
+    width: 32px;
+    height: 32px;
+    display:inline-block;
+    margin-top: 10px;
+}
+
+.phone-number {
+    display: inline-block;
+    height: 32px;
+    vertical-align: middle;
+}
+
+.menu ul {
+    list-style:none;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.menu li {
+    position: relative;
+    display: inline-block;
+    margin-right: -4px;
+}
+
+.menu a {
+    display: block;
+    margin-left: -1px;
+    padding: 8px 10px;
+}
+
+.menu a:hover {
+    background-color: #88d;
+}
+
